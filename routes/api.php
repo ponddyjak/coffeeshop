@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post("products",[ProductController::class,'products']);
-Route::post("products/{id}",[ProductController::class,'products']);
+Route::post("products/{id}",[ProductController::class,'product']);
